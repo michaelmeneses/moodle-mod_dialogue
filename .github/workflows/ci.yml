@@ -5,7 +5,8 @@ on: [push, pull_request]
 jobs:
   test:
     runs-on: ubuntu-18.04
-
+    env:
+      IGNORE_PATHS: yui
     services:
       postgres:
         image: postgres:9.6
