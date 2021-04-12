@@ -1,5 +1,5 @@
 {
-    "name": "ronefel/moodle-mod_dialogue",
+    "name": "danmarsden/moodle-mod_dialogue",
     "type": "moodle-mod",
     "require": {
         "composer/installers": "~1.0"
